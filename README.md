@@ -48,7 +48,7 @@ pkg install nodejs git -y
 git clone https://github.com/lucassx123/botlikesff/
 
 # Entrar na pasta
-cd SEU-BOT
+cd botlikesff
 
 # Instalar dependências
 npm install
