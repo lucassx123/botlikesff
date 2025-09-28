@@ -1,9 +1,10 @@
+[![Telegram](https://img.shields.io/badge/Telegram-Grupo-blue?logo=telegram)](https://t.me/blhuborg)
 ````markdown
 # 🤖 Bot de Likes para o Discord
 
 Um bot em **JavaScript (Node.js)**.  
 
-[![Telegram](https://img.shields.io/badge/Telegram-Grupo-blue?logo=telegram)](https://t.me/blhuborg)
+
 
 ---
 
