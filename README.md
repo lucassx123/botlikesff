@@ -39,7 +39,7 @@ pkg update && pkg upgrade -y
 pkg install nodejs git -y
 
 # Clonar o repositório
-git clone https://github.com/SEU-USUARIO/SEU-BOT.git
+git clone https://github.com/lucassx123/botlikesff/
 
 # Entrar na pasta
 cd SEU-BOT
