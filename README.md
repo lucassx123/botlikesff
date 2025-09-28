@@ -1,7 +1,7 @@
-# 🤖 Bot de likes para o discord
+````markdown
+# 🤖 Bot de Likes para o Discord
 
 Um bot em **JavaScript (Node.js)**.  
-
 
 [![Telegram](https://img.shields.io/badge/Telegram-Grupo-blue?logo=telegram)](https://t.me/blhuborg)
 
@@ -12,26 +12,31 @@ Um bot em **JavaScript (Node.js)**.
 - [Node.js](https://nodejs.org/) (v16 ou superior)  
 - [Git](https://git-scm.com/)  
 - Conta no **Discord Developer Portal** (para pegar o token e ID do bot)  
-- Uma hospedagem (SquareCloud ou Discloud) ou rodar localmente no Termux  
+- Uma hospedagem (**SquareCloud** ou **Discloud**) ou rodar localmente no **Termux/PC**  
 
 ---
 
 ## ⚙️ Configuração
 
-Abra o arquivo `config.js` e edite com as suas credenciais:
+Edite o arquivo `config.js` com suas credenciais:
 
 ```js
 export const TOKEN = "SEU-TOKEN-AQUI"; // Token do bot do Discord
-export const FF_API_KEY = "key-1010"; // Sua chave da API
-export const CLIENT_ID = "ID-DO-BOT"; // ID do bot no Discord
+export const FF_API_KEY = "key-1010";  // Sua chave da API
+export const CLIENT_ID = "ID-DO-BOT";  // ID do bot no Discord
 export const LOGS_COMANDOS = "CHAT-LOGS-ID"; // Canal para logs de comandos
 export const LOGS_ADICAO = "LOGS-BOT"; // Canal para logs de adição
 export const BOT_OWNER_ID = "SEU-ID-DISCORD"; // Seu ID do Discord
 export const MAIN_API = "https://freefireapis.squareweb.app"; // API principal
-🚀 Instalação
-🔹 Local (Termux ou PC)
-bash
-Copiar código
+````
+
+---
+
+## 🚀 Instalação
+
+### 🔹 Local (PC ou Termux)
+
+```bash
 # Atualizar pacotes
 pkg update && pkg upgrade -y
 
@@ -49,41 +54,48 @@ npm install
 
 # Iniciar o bot
 node index.js
-🔹 SquareCloud
-Crie uma conta em SquareCloud.
+```
 
-Crie um novo projeto → escolha Node.js.
+---
 
-Faça upload do seu bot (index.js, package.json, config.js, etc).
+### 🔹 SquareCloud
 
-Edite o arquivo config.js com seu token e API Key.
+1. Crie uma conta em [SquareCloud](https://squarecloud.app).
+2. Crie um novo projeto → escolha **Node.js**.
+3. Faça upload dos arquivos (`index.js`, `package.json`, `config.js`, etc).
+4. Edite o `config.js` com seu token e API Key.
+5. No painel, clique em **Deploy**.
+6. Inicie o bot.
 
-No painel, clique em Deploy.
+---
 
-Inicie o bot.
+### 🔹 Discloud
 
-🔹 Discloud
-Instale o CLI da Discloud.
+1. Instale o CLI da Discloud:
 
-bash
-Copiar código
+```bash
 npm i -g discloud-cli
 discloud login
-Compacte sua pasta do bot em .zip.
+```
 
-Faça upload:
+2. Compacte sua pasta do bot em **.zip**.
+3. Faça upload:
 
-bash
-Copiar código
+```bash
 discloud upload seu-bot.zip
-Inicie o bot no painel da Discloud.
+```
 
-🛠️ Comandos básicos
-npm start → inicia o bot
+4. Inicie o bot no painel da Discloud.
 
-node index.js → inicia manualmente
+---
 
-CTRL + C → para o bot
+## 🛠️ Comandos básicos
 
+```bash
+npm start      # inicia o bot
+node index.js  # inicia manualmente
+CTRL + C       # para o bot
+```
 
-Copiar código
+```
+```
